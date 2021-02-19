@@ -30,6 +30,7 @@ public class IntegerInput {
     // Return the largest integer in the collection by iterating through the list
     // and asking if the number to the right is bigger than the number in the current
     // index. If so, store that one instead and continue until the end.
+    // TODO: when inputting less than 3 numbers this will always return 0.
     static int largestInteger() {
         for (int i=0;i<_integerList.size();i++) {
             if (i+2 > _integerList.size()) {
