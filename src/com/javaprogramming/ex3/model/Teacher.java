@@ -6,8 +6,8 @@ public class Teacher extends Person {
 
     public Teacher(String name, int age, String gender, String subject, double salary) {
         super (name, age, gender);
-        subject = subject;
-        salary = salary;
+        this.subject = subject;
+        this.salary = salary;
     }
 
     public String getSubject() {

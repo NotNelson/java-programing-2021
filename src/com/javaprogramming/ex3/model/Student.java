@@ -6,7 +6,11 @@ public class Student extends Person {
 
     public Student(String name, int age, String gender, String idNum, double averageMark) {
         super(name, age, gender);
-        idNum = idNum;
-        averageMark = averageMark;
+        this.idNum = idNum;
+        this.averageMark = averageMark;
+    }
+
+    public String toString() {
+        return super.toString() + ", Id No: " + idNum + ", Average mark: " + averageMark;
     }
 }
