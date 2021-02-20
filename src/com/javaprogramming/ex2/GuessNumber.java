@@ -23,13 +23,14 @@ public class GuessNumber {
             _bottomGuess = _numbers[0];
             _topGuess = _numbers[_numbers.length-1];
         }
-        System.out.println("Is your number (G)reater or (S)maller than " + ((_topGuess + _bottomGuess) / 2));
+        System.out.println("Is your number (G)reater or (S)maller than "
+                + ((_topGuess + _bottomGuess) / 2));
 
         String guess = _scanner.nextLine();
 
         if (guess.equalsIgnoreCase("G")) {
             _bottomGuess = (_topGuess + _bottomGuess)/2;
-        } else if (guess.equalsIgnoreCase("S")) { ;
+        } else if (guess.equalsIgnoreCase("S")) {
             _topGuess = (_topGuess + _bottomGuess)/2;
         }
 

@@ -12,9 +12,8 @@ public class IntegerInput {
         entryPoint();
     }
 
-    // The start point of the application its a method that can call itself to
-    // allow the user to add as many integer as it wants before performing the
-    // final math.
+    // The start point  of  the application its a method that can call itself to allow the
+    // user  to  add  as  many  integer as it wants  before  performing  the  final  math.
     static void entryPoint() {
         askInteger();
 
@@ -27,9 +26,9 @@ public class IntegerInput {
         }
     }
 
-    // Return the largest integer in the collection by iterating through the list
-    // and asking if the number to the right is bigger than the number in the current
-    // index. If so, store that one instead and continue until the end.
+    // Return the largest integer  in  the  collection  by  iterating through the list and
+    // asking  if the number to the right is bigger than the number in the current  index.
+    // If so, store that one instead and continue until the end.
     // TODO: when inputting less than 3 numbers this will always return 0.
     static int largestInteger() {
         for (int i=0;i<_integerList.size();i++) {
@@ -47,8 +46,8 @@ public class IntegerInput {
         return _biggestInteger;
     }
 
-    // Return the smallest integer in the collection by sorting the collection and returning
-    // the first item
+    // Return  the  smallest  integer  in the collection by  sorting  the  collection  and
+    // returning the first item.
     static int smallestInteger() {
         Collections.sort(_integerList);
 
@@ -67,8 +66,8 @@ public class IntegerInput {
         return total/count;
     }
 
-    // Prompt the user to input an integer making sure zero and negative numbers are caught as
-    // incorrect inputs. The 'catch' block calls the same method again.
+    // Prompt  the  user  to input an integer making sure zero and  negative  numbers  are
+    // caught  as  incorrect  inputs. The  'catch'  block calls  the  same  method  again.
     static void askInteger() {
         System.out.println("Please enter an integer:");
         try {
@@ -85,8 +84,8 @@ public class IntegerInput {
         }
     }
 
-    // Ask the user if he wants to enter another integer, this method only accepts 'y' and 'n' as
-    // valid inputs. The 'catch' block calls the same method again.
+    // Ask  the  user  if  he wants to enter another integer,  this  method  only  accepts
+    // 'y'  and  'n'  as  valid inputs. The 'catch' block calls  the  same  method  again.
     static boolean anotherInteger() {
         System.out.println("Would you like to enter another integer? (y/n)");
 
