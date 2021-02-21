@@ -11,6 +11,6 @@ public class Student extends Person {
     }
 
     public String toString() {
-        return super.toString() + ", Id No: " + idNum + ", Average mark: " + averageMark;
+        return super.toString() + ", Id No: " + idNum + ", Average Mark: " + averageMark;
     }
 }

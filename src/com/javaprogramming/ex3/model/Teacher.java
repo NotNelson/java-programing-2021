@@ -27,6 +27,6 @@ public class Teacher extends Person {
     }
 
     public String toString() {
-        return super.toString() + ", salary: " + this.salary + ", subject: " + this.subject;
+        return super.toString() + ", Salary: " + this.salary + ", Subject: " + this.subject;
     }
 }

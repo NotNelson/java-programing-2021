@@ -28,6 +28,6 @@ public class UnderGradStudent extends Student {
     }
 
     public String toString() {
-        return super.toString() + ", year: " + year + ", major: " + major;
+        return super.toString() + ", Year: " + year + ", Major: " + major;
     }
 }
